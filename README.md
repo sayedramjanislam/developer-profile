@@ -1,2 +1,2 @@
-# developer-profile2.O
-Freelance Web Developer in Bangladesh
+# developer-profile
+Freelance Web designer and Developer in Bangladesh
