@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ramjan Islam - Web design and developer in Bangladesh</title>
+    <title>SAYED RAMJAN ISLAM – Freelance Web Developer in Bangladesh</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -29,7 +29,7 @@
   <body id="top">
     <header class="bg-light">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#"> SAYED RAMJAN ISLAM </a>
+        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="https://www.linkedin.com/in/sayedramjanislam/"> RAMJAN ISLAM </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-2">
@@ -53,15 +53,69 @@
         <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/hello3.svg" alt="hello"/></div>
         <div class="col-lg-6">
           <div class="mt-5">
-            <p class="lead text-uppercase mb-1">Hello!</p>
+            <div>
+<style>
+    .clock 
+    {
+      font-size: 50px;
+      font-weight: bold;
+      color: #F6E05E; 
+      text-align: center;
+    }
+</style>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="clock" id="clock"></h1>
+        </div>
+      </div>
+    </div>
+<script>
+    function updateTime() 
+  {
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+            
+      var meridiem = "AM";
+        if (hours >= 12) 
+        { 
+          meridiem = "PM";
+        }
+            
+      hours = hours % 12;
+      hours = hours ? hours : 12; 
+      
+      // Convert 0 to 12
+            
+      hours = hours < 10 ? "0" + hours : hours;
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+            
+      var timeString = hours + ":" + minutes + ":" + seconds + " " + meridiem;
+      document.getElementById("clock").innerHTML = timeString;
+  }
+            
+      // Update time every second
+          setInterval(updateTime, 1000);
+</script>
+
+
+
+            </div>
+            <p class="lead text-uppercase mb-1"> Greetings! </p>
             <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Ramjan Islam</h1>
-            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100"> Web Designer and Developer </p>
+            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100"> Freelance Web Designer & Developer in Bangladesh </p>
             <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
               <nav role="navigation">
                 <ul class="nav justify-content-left">
                   <li class="nav-item"><a class="nav-link" href="https://wa.me/+8801303057256" title="WhatsApp"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">WhatsApp</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/sayedramjanislam" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sayedramjanislam/" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://t.me/sayedramjanislam" title="Telegram"><i class="fab fa-telegram"></i><span class="menu-title sr-only">Telegram</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/ramjanislam4u" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/ramjanislam4u" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">instagram</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sayedramjanislam/" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/viQQSbI0uUEx" title="Skype"><i class="fab fa-skype"></i><span class="menu-title sr-only">Skype</span></a></li>
                 </ul>
               </nav>
             </div>
@@ -81,28 +135,22 @@
         <p>I am passionate Web Design and Developer. I am a skilled front-end developer and master of WordPress language such as PHP and MySQL. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
         <div class="row mt-3">
           <div class="col-sm-2">
-            <div class="pb-1">Age:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">24</div>
-          </div>
-          <div class="col-sm-2">
             <div class="pb-1">Email:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder"><a href="mailto:ramjanislam.official@gmail.com" style="text-decoration: none;"> ramjanislam.official@gmail.com </a></div>
+            <div class="pb-1 fw-bolder"><a href="mailto:sayedramjanislam@protonmail.com" style="text-decoration: none;"> sayedramjanislam@protonmail.com </a></div>
           </div>
           <div class="col-sm-2">
-            <div class="pb-1">Skype:</div>
+            <div class="pb-1">Telegram:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Upcoming</div>
+            <div class="pb-1 fw-bolder"><a href="https://t.me/sayedramjanislam" style="text-decoration: none;"> 🔗 Inbox Now </a></div>
           </div>
           <div class="col-sm-2">
             <div class="pb-1">Phone:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder"><a href="https://wa.me/+8801303057256" style="text-decoration: none;"> 8801303057256 </a></div>
+            <div class="pb-1 fw-bolder"><a href="https://wa.me/+8801303057256" style="text-decoration: none;"> +8801303057256 </a></div>
           </div>
           <div class="col-sm-2">
             <div class="pb-1">Address:</div>
@@ -114,7 +162,7 @@
             <div class="pb-1">Status:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Available</div>
+            <div class="pb-1 fw-bolder">Online <img src="images/success.png" style="width: 15px; height: 15px;"></div>
           </div>
         </div>
       </div>
@@ -135,10 +183,10 @@
         <div class="h5">Web Design</div>
       </div>
       <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/graphic-design.svg" width="96" height="96" alt="web developer"/>
-        <div class="h5">Web Developer</div>
+        <div class="h5">Web Development</div>
       </div>
       <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/ui-ux.svg" width="96" height="96" alt="WordPress"/>
-        <div class="h5">WordPress</div>
+        <div class="h5">CMS: WordPress, Shopify, Wix</div>
       </div>
       <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="96" height="96" alt="digital marketing"/>
         <div class="h5">Digital Marketing</div>
@@ -437,13 +485,13 @@
               <div class="pb-1">Email:</div>
             </div>
             <div class="col-sm-10">
-              <div class="pb-1 fw-bolder"><a href="mailto:ramjanislam.official@gmail.com" style="text-decoration: none;"> ramjanislam.official@gmail.com </a></div>
+              <div class="pb-1 fw-bolder"><a href="mailto:sayedramjanislam@protonmail.com" style="text-decoration: none;"> sayedramjanislam@protonmail.com </a></div>
             </div>
             <div class="col-sm-2">
               <div class="pb-1">Skype:</div>
             </div>
             <div class="col-sm-10">
-              <div class="pb-1 fw-bolder">Stay tuned</div>
+              <div class="pb-1 fw-bolder"><a href="https://join.skype.com/invite/viQQSbI0uUEx" style="text-decoration: none;"> Sayed Ramjan Islam </a></div>
             </div>
             <div class="col-sm-2">
               <div class="pb-1">Phone:</div>
@@ -461,13 +509,16 @@
   <div class="container">
     <div class="my-3">
       <div class="h4">SAYED RAMJAN ISLAM</div>
-      <p>Front-end Developer & WordPress</p>
+      <p>Experienced developer specializing in Wix, Shopify, and WordPress.</p>
       <div class="social-nav">
         <nav role="navigation">
           <ul class="nav justify-content-center">
             <li class="nav-item"><a class="nav-link" href="https://wa.me/+8801303057256" title="WhatsApp"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">WhatsApp</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/sayedramjanislam" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sayedramjanislam/" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://t.me/sayedramjanislam" title="Telegram"><i class="fab fa-telegram"></i><span class="menu-title sr-only">Telegram</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/ramjanislam4u" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/ramjanislam4u" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">instagram</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sayedramjanislam/" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/viQQSbI0uUEx" title="Skype"><i class="fab fa-skype"></i><span class="menu-title sr-only">Skype</span></a></li>
           </ul>
         </nav>
       </div>
